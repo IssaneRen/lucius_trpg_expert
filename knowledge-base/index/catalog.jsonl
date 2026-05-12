@@ -1,2 +1,3 @@
 
 {"id": "20260512_075740_example-com", "namespace": "general", "source": "https://example.com", "tags": ["demo", "web"], "path": "/Users/hongfei_ren/workspace/lucius_vibe_coding/lucius_trpg_expert/knowledge-base/general/sources/web/20260512_075740_example-com.md", "ingested_at": "2026-05-12T07:57:40.759900+00:00"}
+{"id": "20260512_081228_call-of-cthulhu-resources", "namespace": "trpg/coc7e", "source": "https://chaosium.com/call-of-cthulhu-resources", "tags": ["coc7e", "kp", "official"], "source_tier": "official", "trust_note": "official entry portal", "path": "/Users/hongfei_ren/workspace/lucius_vibe_coding/lucius_trpg_expert/knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md", "ingested_at": "2026-05-12T08:12:28.990029+00:00"}

@@ -69,13 +69,27 @@ def _write_markdown(namespace: str, url: str, tags: Iterable[str], text: str) ->
     return target
 
 
-def _append_catalog(namespace: str, url: str, tags: Iterable[str], markdown_path: Path) -> None:
-    """向全局 catalog 追加一条 JSONL 记录。"""
+def _append_catalog(
+    namespace: str,
+    url: str,
+    tags: Iterable[str],
+    markdown_path: Path,
+    source_tier: str,
+    trust_note: str,
+) -> None:
+    """向全局 catalog 追加一条 JSONL 记录。
+
+    参数说明：
+    - source_tier: 来源级别（official/community/private/internal）
+    - trust_note: 可信度备注，便于后续审查和过滤
+    """
     record = {
         "id": markdown_path.stem,
         "namespace": namespace,
         "source": url,
         "tags": list(tags),
+        "source_tier": source_tier,
+        "trust_note": trust_note,
         "path": markdown_path.as_posix(),
         "ingested_at": dt.datetime.now(dt.timezone.utc).isoformat(),
     }
@@ -86,15 +100,36 @@ def _append_catalog(namespace: str, url: str, tags: Iterable[str], markdown_path
     LOGGER.info("ingest_web: catalog_appended id=%s", record["id"])
 
 
-def ingest_web(url: str, namespace: str, tags: list[str]) -> None:
-    """执行 web 导入链路。"""
-    LOGGER.info("ingest_web: start url=%s namespace=%s", url, namespace)
+def ingest_web(
+    url: str,
+    namespace: str,
+    tags: list[str],
+    source_tier: str,
+    trust_note: str,
+) -> None:
+    """执行 web 导入链路。
+
+    该方法会将来源级别和可信度备注同时写入 catalog，便于后续自动筛选。
+    """
+    LOGGER.info(
+        "ingest_web: start url=%s namespace=%s source_tier=%s",
+        url,
+        namespace,
+        source_tier,
+    )
     request = urllib.request.Request(url, headers={"User-Agent": "lucius-ingestion/0.1"})
     with urllib.request.urlopen(request, timeout=15) as response:
         html = response.read().decode("utf-8", errors="ignore")
     text = _strip_html(html)
     md_path = _write_markdown(namespace=namespace, url=url, tags=tags, text=text)
-    _append_catalog(namespace=namespace, url=url, tags=tags, markdown_path=md_path)
+    _append_catalog(
+        namespace=namespace,
+        url=url,
+        tags=tags,
+        markdown_path=md_path,
+        source_tier=source_tier,
+        trust_note=trust_note,
+    )
     LOGGER.info("ingest_web: done")
 
 
@@ -117,6 +152,8 @@ def build_parser() -> argparse.ArgumentParser:
     web.add_argument("--url", required=True)
     web.add_argument("--namespace", default="general")
     web.add_argument("--tags", default="web")
+    web.add_argument("--source-tier", default="official")
+    web.add_argument("--trust-note", default="seed source")
 
     pdf = sub.add_parser("ingest:pdf", help="placeholder for pdf ingestion")
     pdf.add_argument("--path", required=True)
@@ -135,7 +172,13 @@ def main() -> None:
 
     if args.command == "ingest:web":
         tags = [x.strip() for x in args.tags.split(",") if x.strip()]
-        ingest_web(url=args.url, namespace=args.namespace, tags=tags)
+        ingest_web(
+            url=args.url,
+            namespace=args.namespace,
+            tags=tags,
+            source_tier=args.source_tier,
+            trust_note=args.trust_note,
+        )
     elif args.command == "ingest:pdf":
         ingest_pdf(_path=args.path, _namespace=args.namespace)
     elif args.command == "ingest:media":
