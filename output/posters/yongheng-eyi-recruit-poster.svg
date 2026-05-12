@@ -1,0 +1,37 @@
+<svg width="1080" height="1620" viewBox="0 0 1080 1620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="55%" stop-color="#121B2E"/>
+      <stop offset="100%" stop-color="#0A0E18"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(830 170) rotate(90) scale(260)">
+      <stop offset="0%" stop-color="#9DAAD2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#9DAAD2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1620" fill="url(#bg)"/>
+  <circle cx="830" cy="170" r="260" fill="url(#glow)"/>
+
+  <rect x="42" y="42" width="996" height="1536" stroke="#BCA36A" stroke-width="2"/>
+  <rect x="56" y="56" width="968" height="1508" stroke="#6F6240" stroke-width="1"/>
+
+  <text x="96" y="190" fill="#D5BE88" font-size="56" font-family="serif" letter-spacing="2">克苏鲁TRPG</text>
+  <text x="96" y="300" fill="#F0E8D8" font-size="98" font-family="serif" font-weight="700">《永恒恶意》</text>
+  <text x="96" y="410" fill="#DABF84" font-size="92" font-family="serif" font-weight="700">招募玩家 PL</text>
+
+  <text x="96" y="540" fill="#E8E2D6" font-size="44" font-family="sans-serif">夜雾中的小镇，失踪、低语与古老恶意正在蔓延。</text>
+  <text x="96" y="605" fill="#E8E2D6" font-size="44" font-family="sans-serif">你将扮演调查员，在理智崩解前揭开真相。</text>
+
+  <text x="96" y="730" fill="#F2E9D8" font-size="42" font-family="sans-serif">▸ 系统：克苏鲁的呼唤 CoC 7版</text>
+  <text x="96" y="800" fill="#F2E9D8" font-size="42" font-family="sans-serif">▸ 类型：调查 / 悬疑 / 克苏鲁恐怖</text>
+  <text x="96" y="870" fill="#F2E9D8" font-size="42" font-family="sans-serif">▸ 人数：3-5人</text>
+  <text x="96" y="940" fill="#F2E9D8" font-size="42" font-family="sans-serif">▸ 时长：3-5次团（每次约3-4小时）</text>
+  <text x="96" y="1010" fill="#F2E9D8" font-size="42" font-family="sans-serif">▸ 形式：线上语音 + 骰点机器人</text>
+  <text x="96" y="1080" fill="#F2E9D8" font-size="42" font-family="sans-serif">▸ 说明：欢迎新手，重视角色扮演与团队协作</text>
+
+  <rect x="96" y="1240" width="888" height="172" rx="20" fill="#5D1F1F" stroke="#D2B178" stroke-width="3"/>
+  <text x="140" y="1320" fill="#F4ECDD" font-size="44" font-family="sans-serif" font-weight="700">有兴趣请私信报名：角色概念 + 可开团时间</text>
+  <text x="96" y="1490" fill="#B8BDC9" font-size="38" font-family="sans-serif">KP：Lucius  ｜  让我们在黑暗中寻找真相</text>
+</svg>
