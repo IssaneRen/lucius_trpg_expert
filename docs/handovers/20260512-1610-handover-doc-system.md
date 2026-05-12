@@ -6,20 +6,20 @@
 
 ## Inputs
 
-- `docs/README.md`
+- [docs/README.md](docs/README.md)
 - 第二阶段工程化计划
 
 ## Actions
 
-- 创建 `docs/handovers/INDEX.md`
-- 创建 `docs/handovers/TEMPLATE.md`
+- 创建 [docs/handovers/INDEX.md](docs/handovers/INDEX.md)
+- 创建 [docs/handovers/TEMPLATE.md](docs/handovers/TEMPLATE.md)
 - 定义 step 文件命名规范与审查要点
 
 ## Outputs
 
-- `docs/handovers/INDEX.md`
-- `docs/handovers/TEMPLATE.md`
-- `docs/handovers/20260512-1610-handover-doc-system.md`
+- [docs/handovers/INDEX.md](docs/handovers/INDEX.md)
+- [docs/handovers/TEMPLATE.md](docs/handovers/TEMPLATE.md)
+- [docs/handovers/20260512-1610-handover-doc-system.md](docs/handovers/20260512-1610-handover-doc-system.md)
 
 ## Next
 

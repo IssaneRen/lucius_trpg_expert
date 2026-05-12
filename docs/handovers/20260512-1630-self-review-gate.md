@@ -6,8 +6,8 @@
 
 ## Inputs
 
-- `docs/handovers/INDEX.md`
-- `docs/handovers/TEMPLATE.md`
+- [docs/handovers/INDEX.md](docs/handovers/INDEX.md)
+- [docs/handovers/TEMPLATE.md](docs/handovers/TEMPLATE.md)
 
 ## Actions
 
@@ -17,9 +17,9 @@
 
 ## Outputs
 
-- `docs/handovers/SELF_REVIEW_CHECKLIST.md`
-- `docs/handovers/INDEX.md`
-- `docs/handovers/20260512-1630-self-review-gate.md`
+- [docs/handovers/SELF_REVIEW_CHECKLIST.md](docs/handovers/SELF_REVIEW_CHECKLIST.md)
+- [docs/handovers/INDEX.md](docs/handovers/INDEX.md)
+- [docs/handovers/20260512-1630-self-review-gate.md](docs/handovers/20260512-1630-self-review-gate.md)
 
 ## Next
 

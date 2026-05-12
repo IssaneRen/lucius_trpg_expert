@@ -18,7 +18,7 @@
 ## Outputs
 
 - `packages/ingestion/src/cli.py`
-- `docs/handovers/20260512-1625-catalog-schema-upgrade.md`
+- [docs/handovers/20260512-1625-catalog-schema-upgrade.md](docs/handovers/20260512-1625-catalog-schema-upgrade.md)
 
 ## Next
 

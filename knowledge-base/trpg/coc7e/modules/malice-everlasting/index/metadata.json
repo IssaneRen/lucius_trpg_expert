@@ -7,9 +7,9 @@
   "system": "coc7e",
   "type": "scenario-module",
   "source_tier": "private-pdf",
-  "source_path": "/Users/hongfei_ren/Documents/personal/永恒恶意 Malice Everlasting .pdf",
-  "source_in_repo": false,
-  "copyright_note": "Original PDF is referenced by absolute path and not copied into repository by default.",
+  "source_path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/malice-everlasting.pdf",
+  "source_in_repo": true,
+  "copyright_note": "PDF has been copied into repository under module raw folder. Verify redistribution permissions before publishing the repository.",
   "status": "bootstrapped",
   "tags": [
     "coc7e",
@@ -17,5 +17,5 @@
     "malice-everlasting",
     "kp"
   ],
-  "updated_at": "2026-05-12T16:20:00+08:00"
+  "updated_at": "2026-05-12T16:52:00+08:00"
 }

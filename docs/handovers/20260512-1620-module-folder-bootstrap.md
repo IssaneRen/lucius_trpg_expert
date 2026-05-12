@@ -17,7 +17,7 @@
 
 ## Outputs
 
-- `knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md`
+- [knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md](knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md)
 - `knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json`
 - `knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep`
 - `knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep`

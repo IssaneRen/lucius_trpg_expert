@@ -6,8 +6,8 @@
 
 ## Inputs
 
-- `docs/handovers/INDEX.md`
-- `knowledge-base/trpg/coc7e/index/sources-seed.md`
+- [docs/handovers/INDEX.md](docs/handovers/INDEX.md)
+- [knowledge-base/trpg/coc7e/index/sources-seed.md](knowledge-base/trpg/coc7e/index/sources-seed.md)
 - `knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json`
 - `packages/ingestion/src/cli.py`
 
@@ -20,9 +20,9 @@
 
 ## Outputs
 
-- `knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md`
+- [knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md](knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md)
 - `knowledge-base/index/catalog.jsonl`（新增含 `source_tier` 和 `trust_note` 记录）
-- `docs/handovers/20260512-1635-phase-acceptance-check.md`
+- [docs/handovers/20260512-1635-phase-acceptance-check.md](docs/handovers/20260512-1635-phase-acceptance-check.md)
 
 ## Next
 

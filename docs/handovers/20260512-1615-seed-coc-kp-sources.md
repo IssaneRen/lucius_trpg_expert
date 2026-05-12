@@ -17,7 +17,7 @@
 
 ## Outputs
 
-- `knowledge-base/trpg/coc7e/index/sources-seed.md`
+- [knowledge-base/trpg/coc7e/index/sources-seed.md](knowledge-base/trpg/coc7e/index/sources-seed.md)
 
 ## Next
 

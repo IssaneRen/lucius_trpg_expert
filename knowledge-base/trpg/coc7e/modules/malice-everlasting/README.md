@@ -9,11 +9,11 @@
 
 ## 五表入口（便于编辑）
 
-- `parsed/contacts.md`
-- `parsed/relationships.md`
-- `parsed/events.md`
-- `parsed/event-participants.md`
-- `parsed/tags.md`
+- [parsed/contacts.md](parsed/contacts.md)
+- [parsed/relationships.md](parsed/relationships.md)
+- [parsed/events.md](parsed/events.md)
+- [parsed/event-participants.md](parsed/event-participants.md)
+- [parsed/tags.md](parsed/tags.md)
 
 ## 编辑规范
 
