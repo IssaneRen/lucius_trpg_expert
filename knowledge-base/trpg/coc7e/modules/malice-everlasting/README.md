@@ -4,7 +4,7 @@
 
 - `raw/`: 原始文件引用或受控副本
 - `parsed/`: 解析后的结构化文本
-- `notes/`: KP 运行手记
+- `notes/`: KP 运行手记（例：[钩子与串联灵感](notes/kp-hooks-and-inspirations.md)）
 - `index/metadata.json`: 模组元数据与追踪信息
 
 ## 五表入口（便于编辑）
