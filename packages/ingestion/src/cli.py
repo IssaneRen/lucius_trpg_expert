@@ -3,7 +3,7 @@
 
 当前实现：
 - ingest:web   最小可运行链路（抓取网页文本 -> markdown -> catalog）
-- ingest:pdf   占位命令
+- ingest:pdf   PDF 文本提取 -> markdown -> catalog
 - ingest:media 占位命令
 """
 
@@ -14,6 +14,8 @@ import datetime as dt
 import json
 import logging
 import re
+import shutil
+import subprocess
 import urllib.request
 from pathlib import Path
 from typing import Iterable
@@ -22,6 +24,9 @@ from typing import Iterable
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 LOGGER = logging.getLogger("ingestion_cli")
 ROOT = Path(__file__).resolve().parents[3]
+
+# PDF 文本最大字符数，超出截断
+PDF_MAX_CHARS = 50000
 
 
 def _slugify(text: str) -> str:
@@ -133,9 +138,199 @@ def ingest_web(
     LOGGER.info("ingest_web: done")
 
 
-def ingest_pdf(_path: str, _namespace: str) -> None:
-    """PDF 导入占位实现。"""
-    LOGGER.info("ingest_pdf: TODO 预留接口，后续接入真实 PDF 解析流程")
+# ---------------------------------------------------------------------------
+# PDF ingestion
+# ---------------------------------------------------------------------------
+
+
+def _extract_pdf_text_pymupdf(file_path: Path) -> list[str]:
+    """使用 pymupdf (fitz) 逐页提取 PDF 文本。
+
+    返回每页文本的列表。如果 pymupdf 不可用则抛出 ImportError。
+    """
+    import fitz  # type: ignore[import-untyped]  # pymupdf
+
+    pages: list[str] = []
+    with fitz.open(str(file_path)) as doc:
+        for page in doc:
+            pages.append(page.get_text())
+    return pages
+
+
+def _extract_pdf_text_pdftotext(file_path: Path) -> list[str]:
+    """使用系统 pdftotext 命令逐页提取 PDF 文本。
+
+    依赖 poppler（macOS: brew install poppler）。
+    返回每页文本的列表。如果 pdftotext 不可用则抛出 FileNotFoundError。
+    """
+    pdftotext_bin = shutil.which("pdftotext")
+    if not pdftotext_bin:
+        raise FileNotFoundError("pdftotext not found in PATH")
+
+    # pdftotext -layout 保持原始排版，输出到 stdout
+    result = subprocess.run(
+        [pdftotext_bin, "-layout", str(file_path), "-"],
+        capture_output=True,
+        text=True,
+        timeout=60,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"pdftotext failed: {result.stderr.strip()}")
+
+    # pdftotext 用 form-feed (\x0c) 分隔页面
+    raw_pages = result.stdout.split("\x0c")
+    # 最后一个元素通常是空字符串
+    pages = [p for p in raw_pages if p.strip()]
+    return pages
+
+
+def _extract_pdf_text(file_path: Path) -> list[str]:
+    """提取 PDF 文本，优先使用 pymupdf，fallback 到 pdftotext。
+
+    如果两者都不可用，抛出 RuntimeError 附带安装提示。
+    """
+    # 尝试 pymupdf
+    try:
+        return _extract_pdf_text_pymupdf(file_path)
+    except ImportError:
+        LOGGER.info("ingest_pdf: pymupdf not available, trying pdftotext fallback")
+    except Exception as e:
+        LOGGER.warning("ingest_pdf: pymupdf extraction failed (%s), trying pdftotext", e)
+
+    # 尝试 pdftotext
+    try:
+        return _extract_pdf_text_pdftotext(file_path)
+    except FileNotFoundError:
+        pass
+    except Exception as e:
+        raise RuntimeError(f"pdftotext extraction failed: {e}") from e
+
+    # 两者都不可用
+    raise RuntimeError(
+        "PDF 文本提取失败：pymupdf 和 pdftotext 均不可用。\n"
+        "请安装其中之一：\n"
+        "  pip install pymupdf        # 推荐\n"
+        "  brew install poppler       # macOS, 提供 pdftotext 命令"
+    )
+
+
+def _write_pdf_markdown(
+    namespace: str,
+    source: str,
+    tags: Iterable[str],
+    pages: list[str],
+    slug: str,
+    source_tier: str,
+    trust_note: str,
+) -> Path:
+    """将 PDF 提取文本写入标准化 markdown 文档并返回路径。"""
+    captured_at = dt.datetime.now(dt.timezone.utc)
+    timestamp = captured_at.strftime("%Y%m%d_%H%M%S")
+    target_dir = ROOT / "knowledge-base" / namespace / "sources" / "pdf"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target = target_dir / f"{timestamp}_{slug}.md"
+
+    # 构建正文：逐页用 ## Page N 分隔
+    body_parts: list[str] = []
+    total_chars = 0
+    truncated = False
+    for i, page_text in enumerate(pages, start=1):
+        header = f"## Page {i}\n\n"
+        content = page_text.strip() + "\n"
+        if total_chars + len(header) + len(content) > PDF_MAX_CHARS:
+            body_parts.append(header)
+            remaining = PDF_MAX_CHARS - total_chars - len(header)
+            if remaining > 0:
+                body_parts.append(content[:remaining])
+            body_parts.append("\n\n[truncated]\n")
+            truncated = True
+            break
+        body_parts.append(header)
+        body_parts.append(content)
+        total_chars += len(header) + len(content)
+
+    body = "".join(body_parts)
+
+    frontmatter = (
+        "---\n"
+        f"source: {source}\n"
+        f"captured_at: {captured_at.isoformat()}\n"
+        f"namespace: {namespace}\n"
+        f"tags: [{', '.join(tags)}]\n"
+        f"source_tier: {source_tier}\n"
+        f"trust_note: {trust_note}\n"
+        f"total_pages: {len(pages)}\n"
+        f"truncated: {str(truncated).lower()}\n"
+        "---\n\n"
+        "# PDF Ingestion Result\n\n"
+    )
+
+    target.write_text(frontmatter + body, encoding="utf-8")
+    LOGGER.info("ingest_pdf: markdown_written path=%s", target.as_posix())
+    return target
+
+
+def ingest_pdf(
+    file_path: str,
+    namespace: str,
+    tags: list[str],
+    source_tier: str,
+    trust_note: str,
+) -> None:
+    """执行 PDF 导入链路。
+
+    流程：PDF 路径校验 -> 文本提取 -> markdown 生成 -> catalog 追加。
+    """
+    pdf_path = Path(file_path).resolve()
+
+    # 路径校验
+    if not pdf_path.exists():
+        raise FileNotFoundError(f"PDF file not found: {pdf_path}")
+    if not pdf_path.is_file():
+        raise ValueError(f"Path is not a file: {pdf_path}")
+    if pdf_path.suffix.lower() != ".pdf":
+        LOGGER.warning("ingest_pdf: file does not have .pdf extension: %s", pdf_path.name)
+
+    LOGGER.info(
+        "ingest_pdf: start file=%s namespace=%s source_tier=%s",
+        pdf_path,
+        namespace,
+        source_tier,
+    )
+
+    # 从文件名派生 slug（去掉 .pdf 后缀，转 kebab-case）
+    slug = _slugify(pdf_path.stem)
+
+    # 提取文本
+    pages = _extract_pdf_text(pdf_path)
+    if not pages:
+        LOGGER.warning("ingest_pdf: no text extracted from PDF")
+        pages = ["(no extractable text)"]
+
+    LOGGER.info("ingest_pdf: extracted %d pages", len(pages))
+
+    # 写入 markdown
+    source = f"file://{pdf_path}"
+    md_path = _write_pdf_markdown(
+        namespace=namespace,
+        source=source,
+        tags=tags,
+        pages=pages,
+        slug=slug,
+        source_tier=source_tier,
+        trust_note=trust_note,
+    )
+
+    # 追加 catalog
+    _append_catalog(
+        namespace=namespace,
+        url=source,
+        tags=tags,
+        markdown_path=md_path,
+        source_tier=source_tier,
+        trust_note=trust_note,
+    )
+    LOGGER.info("ingest_pdf: done")
 
 
 def ingest_media(_path: str, _namespace: str) -> None:
@@ -155,9 +350,12 @@ def build_parser() -> argparse.ArgumentParser:
     web.add_argument("--source-tier", default="official")
     web.add_argument("--trust-note", default="seed source")
 
-    pdf = sub.add_parser("ingest:pdf", help="placeholder for pdf ingestion")
-    pdf.add_argument("--path", required=True)
-    pdf.add_argument("--namespace", default="general")
+    pdf = sub.add_parser("ingest:pdf", help="ingest text from PDF file")
+    pdf.add_argument("--file", required=True, help="path to the PDF file")
+    pdf.add_argument("--namespace", default="general", help="knowledge namespace")
+    pdf.add_argument("--tags", default="pdf", help="comma-separated tags")
+    pdf.add_argument("--source-tier", default="private-pdf", help="source tier level")
+    pdf.add_argument("--trust-note", default="pdf import", help="trust/provenance note")
 
     media = sub.add_parser("ingest:media", help="placeholder for media ingestion")
     media.add_argument("--path", required=True)
@@ -180,7 +378,14 @@ def main() -> None:
             trust_note=args.trust_note,
         )
     elif args.command == "ingest:pdf":
-        ingest_pdf(_path=args.path, _namespace=args.namespace)
+        tags = [x.strip() for x in args.tags.split(",") if x.strip()]
+        ingest_pdf(
+            file_path=args.file,
+            namespace=args.namespace,
+            tags=tags,
+            source_tier=args.source_tier,
+            trust_note=args.trust_note,
+        )
     elif args.command == "ingest:media":
         ingest_media(_path=args.path, _namespace=args.namespace)
 

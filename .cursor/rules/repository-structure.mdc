@@ -1,3 +1,8 @@
+---
+description: "仓库目录层次规则和修改权限约束"
+alwaysApply: true
+---
+
 # Repository Structure Rule
 
 ## 目标

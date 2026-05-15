@@ -1,3 +1,8 @@
+---
+description: "多 Agent 协作流程规则：路由→检索→执行→沉淀"
+alwaysApply: true
+---
+
 # Agent Collaboration Rule
 
 ## 协作流程

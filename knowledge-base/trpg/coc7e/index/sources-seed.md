@@ -1,3 +1,10 @@
+---
+source: "manual:kp-curated-sources"
+captured_at: "2026-05-12T08:00:00+08:00"
+namespace: "trpg/coc7e"
+tags: [coc7e, sources, seed, kp]
+---
+
 # CoC/KP Sources Seed
 
 首批来源遵循：官方优先 + 高质量社区补充。用于后续批量导入与检索质量控制。

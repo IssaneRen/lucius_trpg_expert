@@ -1,3 +1,8 @@
+---
+description: "知识导入必填元数据和格式约束"
+alwaysApply: true
+---
+
 # Knowledge Ingestion Rule
 
 ## 必填元数据

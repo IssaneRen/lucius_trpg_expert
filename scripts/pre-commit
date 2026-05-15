@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# AI 配置同步检查
+# 如果 agents/ skills/ rules/ 有变更，自动执行同步并 stage 结果
+
+CHANGED_SOURCES=$(git diff --cached --name-only | grep -E '^(agents|skills|rules)/')
+
+if [ -n "$CHANGED_SOURCES" ]; then
+    echo "检测到源定义变更，执行 AI 配置同步..."
+    python3 scripts/sync_ai_configs.py
+
+    # Stage 同步产物
+    git add .cursor/rules/ .claude/agents/ .claude/skills/ codex/
+    echo "AI 配置同步完成，已 stage 适配层变更。"
+fi

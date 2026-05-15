@@ -1,3 +1,10 @@
+---
+source: "module:knowledge-base/trpg/coc7e/modules/malice-everlasting"
+captured_at: "2026-05-12T16:52:00+08:00"
+namespace: "trpg/coc7e/modules/malice-everlasting"
+tags: [coc7e, malice-everlasting, parsed, relationships]
+---
+
 # Relationships Table
 
 | relationship_id | world_id | source_contact_id | target_contact_id | type | label | weight | description | evidence | confidence |

@@ -1,3 +1,10 @@
+---
+source: "module:knowledge-base/trpg/coc7e/modules/malice-everlasting"
+captured_at: "2026-05-12T16:52:00+08:00"
+namespace: "trpg/coc7e/modules/malice-everlasting"
+tags: [coc7e, malice-everlasting, parsed, contacts]
+---
+
 # Contacts Table
 
 
