@@ -1,0 +1,1052 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "7c0137fda0b1671319f34cb054d975a033915ddc",
+  "generatedAt": "2026-05-31T14:59:48.623Z",
+  "files": {
+    ".claude/agents/indexer.md": {
+      "filePath": ".claude/agents/indexer.md",
+      "contentHash": "120d5b85403381319e7b1da6ce8996cd46cc9f2e6a7930bcc0157e2dcf08a8f9",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 21,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/agents/researcher.md": {
+      "filePath": ".claude/agents/researcher.md",
+      "contentHash": "fa3c3dc3c287117d827122390506935b26ea3d5652dc2e4cee63e9b72eabb5fc",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/agents/responder.md": {
+      "filePath": ".claude/agents/responder.md",
+      "contentHash": "29b3b6cb524ddea21e9969f818af99d5a40880a0aee75adb182bd214eae6b252",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/skills/knowledge-ingest/SKILL.md": {
+      "filePath": ".claude/skills/knowledge-ingest/SKILL.md",
+      "contentHash": "a321c650cc6a4810e70a59288887e89be129346455abeeb91cf8c4e336ea1c5e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 32,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/skills/trpg-query-routing/SKILL.md": {
+      "filePath": ".claude/skills/trpg-query-routing/SKILL.md",
+      "contentHash": "a53f9c2857fd63950f3c15cbe99d9e2aed14a1c75cfbb261b4ee6ea3ac4773b8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    },
+    ".cursor/rules/agent-collaboration.md": {
+      "filePath": ".cursor/rules/agent-collaboration.md",
+      "contentHash": "2e66158582e90b2267b5b4ff031186fb09c621b3401dcca3343f77e2e67a3f10",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    ".cursor/rules/knowledge-ingestion.md": {
+      "filePath": ".cursor/rules/knowledge-ingestion.md",
+      "contentHash": "943b384e6b6c1c6be853e8f219ba61c1b84c7cc7f06a2d1a70a4bbdfa2d11834",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 16,
+      "hasStructuralAnalysis": true
+    },
+    ".cursor/rules/repository-structure.md": {
+      "filePath": ".cursor/rules/repository-structure.md",
+      "contentHash": "209b5f26c7788b244a98c7afef7ea86024ddea68f3cd1e4d058be8f399fa07a0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 14,
+      "hasStructuralAnalysis": true
+    },
+    ".mcp.json": {
+      "filePath": ".mcp.json",
+      "contentHash": "a10d25037eacc161c6a465f243cecd7eb0ba79f4e22c6f0831247f22d5d01345",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 12,
+      "hasStructuralAnalysis": true
+    },
+    "AGENTS.md": {
+      "filePath": "AGENTS.md",
+      "contentHash": "e32f0cac309cc0e5b58aa31a6ff138f047a0d2fc8a8ec156be8ab8e62bb01dab",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 32,
+      "hasStructuralAnalysis": true
+    },
+    "agents/indexer.md": {
+      "filePath": "agents/indexer.md",
+      "contentHash": "120d5b85403381319e7b1da6ce8996cd46cc9f2e6a7930bcc0157e2dcf08a8f9",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 21,
+      "hasStructuralAnalysis": true
+    },
+    "agents/researcher.md": {
+      "filePath": "agents/researcher.md",
+      "contentHash": "fa3c3dc3c287117d827122390506935b26ea3d5652dc2e4cee63e9b72eabb5fc",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": true
+    },
+    "agents/responder.md": {
+      "filePath": "agents/responder.md",
+      "contentHash": "29b3b6cb524ddea21e9969f818af99d5a40880a0aee75adb182bd214eae6b252",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": true
+    },
+    "apps/README.md": {
+      "filePath": "apps/README.md",
+      "contentHash": "f5d19b743bef8a56a95a2e77418b514227e561e3b12f6ab2d460dd2ffc1f079b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "CLAUDE.md": {
+      "filePath": "CLAUDE.md",
+      "contentHash": "b81e6ab9c73079f20c355112a87fa790ca609663bae974b175f1f1a26d197c29",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    },
+    "codex/profiles/README.md": {
+      "filePath": "codex/profiles/README.md",
+      "contentHash": "96eb5b5e9f3132cadc9cfd6d4c22876c70b2fc55af020976ce46ad0777a4826c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "codex/prompts/README.md": {
+      "filePath": "codex/prompts/README.md",
+      "contentHash": "bc314a349e412da48d288d517db7f135b7ac692cbdbd58e07469d26f65429f59",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "codex/README.md": {
+      "filePath": "codex/README.md",
+      "contentHash": "bfd91fa189a1a28507c87c09708c288b59d5a1211c71edbde0540294edafe9be",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": true
+    },
+    "CONTRIBUTING.md": {
+      "filePath": "CONTRIBUTING.md",
+      "contentHash": "79d98f6a455a86027c388fc7f7f0a9a2833960ddb7b767d71f8e5cc6922ffdfb",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 14,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1610-handover-doc-system.md": {
+      "filePath": "docs/handovers/20260512-1610-handover-doc-system.md",
+      "contentHash": "67a7df452f5066a6adcbd888ee462a589ad8bbb6d2c9724a7ccc8dc20e26fe28",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 32,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1615-seed-coc-kp-sources.md": {
+      "filePath": "docs/handovers/20260512-1615-seed-coc-kp-sources.md",
+      "contentHash": "91a7f9ab6f7bc2f2db140052b2236df3f23585e00b462e577e3ba9ed306b9448",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 30,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1620-module-folder-bootstrap.md": {
+      "filePath": "docs/handovers/20260512-1620-module-folder-bootstrap.md",
+      "contentHash": "a603da8e5a6de5914e40c4226afa8bade236a3abba2ebd4703e4a7e4e79377dc",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 34,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1625-catalog-schema-upgrade.md": {
+      "filePath": "docs/handovers/20260512-1625-catalog-schema-upgrade.md",
+      "contentHash": "1d6381a22c4ad82e634726fa73bd9da1c23cc9b41541a7eb48273d39884caa4e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 31,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1630-self-review-gate.md": {
+      "filePath": "docs/handovers/20260512-1630-self-review-gate.md",
+      "contentHash": "45eb072dc731bf8d4662e0438156f9d72ae90cc265ef1e7813ac9c1c426385f2",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 32,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1635-phase-acceptance-check.md": {
+      "filePath": "docs/handovers/20260512-1635-phase-acceptance-check.md",
+      "contentHash": "96736172d95e7442069d83d8d8002d7020785c1ae2e18154d35dc04430667934",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 37,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/20260512-1640-malice-five-tables.md": {
+      "filePath": "docs/handovers/20260512-1640-malice-five-tables.md",
+      "contentHash": "771cc1204774601ae8576bfdbc3cf143ec86db0e595633f91f7204ce3391072d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 38,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/INDEX.md": {
+      "filePath": "docs/handovers/INDEX.md",
+      "contentHash": "ed1d26dc5716e3c1661e989e92ee05b5c6cc854d11dc88bbf3961ece73db03cf",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 28,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/SELF_REVIEW_CHECKLIST.md": {
+      "filePath": "docs/handovers/SELF_REVIEW_CHECKLIST.md",
+      "contentHash": "b63726b750adf47d55e44789256e200c416cb91cfb180a54456ca0e93ada65f8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 30,
+      "hasStructuralAnalysis": true
+    },
+    "docs/handovers/TEMPLATE.md": {
+      "filePath": "docs/handovers/TEMPLATE.md",
+      "contentHash": "1efda3c27d4b9e37cd5f261ebda764bf8c9a7bd315938011caafd0024d2b05c0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 27,
+      "hasStructuralAnalysis": true
+    },
+    "docs/README.md": {
+      "filePath": "docs/README.md",
+      "contentHash": "690e3baf84d6fdefe35729b9ea8cf71b2aa55f68c13803f9a1de32a138d4f4c3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/conversations/README.md": {
+      "filePath": "knowledge-base/conversations/README.md",
+      "contentHash": "c67dcf34e3975d8f0f5960a288463338cfd8ca51a71a57e6a6b3d483cae85d86",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/general/README.md": {
+      "filePath": "knowledge-base/general/README.md",
+      "contentHash": "026970f34916b8e43033fa035dfea7524c26a63cc5d76dcbfe05007453de55d8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/general/sources/media/.gitkeep": {
+      "filePath": "knowledge-base/general/sources/media/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/general/sources/pdf/.gitkeep": {
+      "filePath": "knowledge-base/general/sources/pdf/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/general/sources/web/.gitkeep": {
+      "filePath": "knowledge-base/general/sources/web/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/general/sources/web/20260512_075740_example-com.md": {
+      "filePath": "knowledge-base/general/sources/web/20260512_075740_example-com.md",
+      "contentHash": "91c7fb2d21c81ad24de4586d43d03558888f923dc0b9e850bab54e3d222bfdf8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 11,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/index/catalog.jsonl": {
+      "filePath": "knowledge-base/index/catalog.jsonl",
+      "contentHash": "c18b24db50ae14d57d684d2e51e492ed99c71c3c4bf7ad8fd880f01be209e31b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/README.md": {
+      "filePath": "knowledge-base/README.md",
+      "contentHash": "7dc63f6bf2ec6a9b8400f3edda72535eb0598ce024983b5d90f1bc4a668cd299",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/artifacts/.gitkeep": {
+      "filePath": "knowledge-base/trpg/coc7e/artifacts/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/coc7e/index/.gitkeep": {
+      "filePath": "knowledge-base/trpg/coc7e/index/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/coc7e/index/sources-seed.md": {
+      "filePath": "knowledge-base/trpg/coc7e/index/sources-seed.md",
+      "contentHash": "1fc874c83128fd25310484a9530cd80c9f2b0fb8367321af130980a4ad8937d6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 34,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json",
+      "contentHash": "7ab9d9e94395e97a25636fff45836a34e9c5176525ca2d67215e54208dc3aa5f",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 22,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/contacts.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/contacts.md",
+      "contentHash": "ca892a58e7c074bea7e1eb44f718b417ffedebe1d120fea69b714ab4fd3a49b6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 39,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/event-participants.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/event-participants.md",
+      "contentHash": "3d89764f2897e0e9bca3c0787f568d951ae94c038caf7d3f990b098f643ec627",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 55,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/events.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/events.md",
+      "contentHash": "dcf640cf339a7e5f66cf39cf98bc9f453d16ecdd4e48ec4a5e9d75c26429eceb",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 23,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/relationships.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/relationships.md",
+      "contentHash": "f92e61776ff14cbd128a49d1e2bc98e25b24891de778daf37faa438fe5425a45",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 39,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/tags.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/tags.md",
+      "contentHash": "7db47f82590f84bf382082397a15c39660e83f9a7f9c7eaef73e4348a876c77c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 39,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md",
+      "contentHash": "95b20aa3f7022d25ad32b511a34cc050654810239e3bff963b0fbc12026e2cf6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json",
+      "contentHash": "8b62b57fed296a4a14bfeba6dbc1ffb203cf783b96c91871866668f50dc21d81",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 38,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md",
+      "contentHash": "b54084cf4e6b163caf5bc4d7dd57dd9bda0321b986d70dcb4bdeadbc998c0ca1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 73,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md",
+      "contentHash": "a55132bc941914d245ce4fc3a5a9d0ca0c2647d81c37ea1bc0625ebcb52b5c4f",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md",
+      "contentHash": "2200e1672b8d7acea1768d5d5edcf9cf44f48cba9c1e30fa2e42cd64eb68a213",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 28,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md",
+      "contentHash": "e9bbda63c02610a3e511bf8c8d479ca9aa8b032d19e4044b70794d9ec7a401d8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 17,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md",
+      "contentHash": "c281e0d10b842131c6a2da2fb61b2e93f37ff51fa396f8347ef04a5f6fa47a90",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 91,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md",
+      "contentHash": "a350bfda01a46abd3c98e14087315cc92d6da87a0a0881126b5e41512d9c4b97",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md",
+      "contentHash": "5782f6da516d2cb20711754edb13e5154961dfa0bfc5fcf0ba55777a8484e7bc",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/modules/the-night-war/README.md": {
+      "filePath": "knowledge-base/trpg/coc7e/modules/the-night-war/README.md",
+      "contentHash": "ff67ae4393207bfda7b5630cf612b5e1402d1eba9d5f80197b0dfc5694e6bb7d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 50,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/README.md": {
+      "filePath": "knowledge-base/trpg/coc7e/README.md",
+      "contentHash": "190e546b2fed9108b3dfee22aa62e578274f9479da51fc144c6b922d117c0a1e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/coc7e/sources/.gitkeep": {
+      "filePath": "knowledge-base/trpg/coc7e/sources/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md": {
+      "filePath": "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md",
+      "contentHash": "0e9fb2b72d928d20c96b19a8868f7e765878714fd4c2db2b0a12313dbcfd0ab9",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 277,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/dnd5e/artifacts/.gitkeep": {
+      "filePath": "knowledge-base/trpg/dnd5e/artifacts/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/dnd5e/index/.gitkeep": {
+      "filePath": "knowledge-base/trpg/dnd5e/index/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/dnd5e/README.md": {
+      "filePath": "knowledge-base/trpg/dnd5e/README.md",
+      "contentHash": "0b5336dc92ba2b91e121fbfed48468f807e872bea6cb77bf9e55e8d63eb7b84e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/dnd5e/sources/.gitkeep": {
+      "filePath": "knowledge-base/trpg/dnd5e/sources/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/pf2e/artifacts/.gitkeep": {
+      "filePath": "knowledge-base/trpg/pf2e/artifacts/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/pf2e/index/.gitkeep": {
+      "filePath": "knowledge-base/trpg/pf2e/index/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/pf2e/README.md": {
+      "filePath": "knowledge-base/trpg/pf2e/README.md",
+      "contentHash": "f7a75ad393bcf4da37ec5b53adcecb04f84bd0bf7affd5b52a88b844f354e9cb",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "knowledge-base/trpg/pf2e/sources/.gitkeep": {
+      "filePath": "knowledge-base/trpg/pf2e/sources/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "knowledge-base/trpg/README.md": {
+      "filePath": "knowledge-base/trpg/README.md",
+      "contentHash": "948fae75b711fe06ac10a17af027b00793398315407accc02661511054b566ed",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "packages/index/.gitkeep": {
+      "filePath": "packages/index/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "packages/ingestion/README.md": {
+      "filePath": "packages/ingestion/README.md",
+      "contentHash": "7690c03544100f30745097b509b88b190c2707fa302afb86d5964511041048bf",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "packages/ingestion/src/cli.py": {
+      "filePath": "packages/ingestion/src/cli.py",
+      "contentHash": "d1b750db8333f5c6631513494d35111a48076d256f9493111fff61662abe0022",
+      "functions": [
+        {
+          "name": "_slugify",
+          "params": [
+            "text"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "_strip_html",
+          "params": [
+            "html"
+          ],
+          "returnType": "str",
+          "exported": true,
+          "lineCount": 11
+        },
+        {
+          "name": "_write_markdown",
+          "params": [
+            "namespace",
+            "url",
+            "tags",
+            "text"
+          ],
+          "returnType": "Path",
+          "exported": true,
+          "lineCount": 24
+        },
+        {
+          "name": "_append_catalog",
+          "params": [
+            "namespace",
+            "url",
+            "tags",
+            "markdown_path",
+            "source_tier",
+            "trust_note"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 29
+        },
+        {
+          "name": "ingest_web",
+          "params": [
+            "url",
+            "namespace",
+            "tags",
+            "source_tier",
+            "trust_note"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 31
+        },
+        {
+          "name": "ingest_pdf",
+          "params": [
+            "_path",
+            "_namespace"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "ingest_media",
+          "params": [
+            "_path",
+            "_namespace"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "build_parser",
+          "params": [],
+          "returnType": "argparse.ArgumentParser",
+          "exported": true,
+          "lineCount": 20
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 18
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "datetime",
+          "specifiers": [
+            "dt"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "logging",
+          "specifiers": [
+            "logging"
+          ]
+        },
+        {
+          "source": "re",
+          "specifiers": [
+            "re"
+          ]
+        },
+        {
+          "source": "urllib.request",
+          "specifiers": [
+            "urllib.request"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "typing",
+          "specifiers": [
+            "Iterable"
+          ]
+        }
+      ],
+      "exports": [
+        "_slugify",
+        "_strip_html",
+        "_write_markdown",
+        "_append_catalog",
+        "ingest_web",
+        "ingest_pdf",
+        "ingest_media",
+        "build_parser",
+        "main"
+      ],
+      "totalLines": 190,
+      "hasStructuralAnalysis": true
+    },
+    "packages/README.md": {
+      "filePath": "packages/README.md",
+      "contentHash": "1e2252b77efdda85559980a7a6c07819e0d380e431f0b2f91f975e8094444ddf",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 9,
+      "hasStructuralAnalysis": true
+    },
+    "packages/retrieval/.gitkeep": {
+      "filePath": "packages/retrieval/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "packages/tooling/.gitkeep": {
+      "filePath": "packages/tooling/.gitkeep",
+      "contentHash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "f43b24b686d7430ecb437dac6fb6c48069319453cdc87c3fa91e4a8d1d318374",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 42,
+      "hasStructuralAnalysis": true
+    },
+    "rules/agent-collaboration.md": {
+      "filePath": "rules/agent-collaboration.md",
+      "contentHash": "2e66158582e90b2267b5b4ff031186fb09c621b3401dcca3343f77e2e67a3f10",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    "rules/knowledge-ingestion.md": {
+      "filePath": "rules/knowledge-ingestion.md",
+      "contentHash": "943b384e6b6c1c6be853e8f219ba61c1b84c7cc7f06a2d1a70a4bbdfa2d11834",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 16,
+      "hasStructuralAnalysis": true
+    },
+    "rules/repository-structure.md": {
+      "filePath": "rules/repository-structure.md",
+      "contentHash": "209b5f26c7788b244a98c7afef7ea86024ddea68f3cd1e4d058be8f399fa07a0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 14,
+      "hasStructuralAnalysis": true
+    },
+    "scripts/sync_ai_configs.py": {
+      "filePath": "scripts/sync_ai_configs.py",
+      "contentHash": "bc00ca9d84b570d86da1863e621231c6891acf7d08a680faa6ef72a8aa5e3014",
+      "functions": [
+        {
+          "name": "_reset_dir",
+          "params": [
+            "path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "_copy_tree",
+          "params": [
+            "src",
+            "dst"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 10
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 27
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "shutil",
+          "specifiers": [
+            "shutil"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        }
+      ],
+      "exports": [
+        "_reset_dir",
+        "_copy_tree",
+        "main"
+      ],
+      "totalLines": 67,
+      "hasStructuralAnalysis": true
+    },
+    "skills/knowledge-ingest/SKILL.md": {
+      "filePath": "skills/knowledge-ingest/SKILL.md",
+      "contentHash": "a321c650cc6a4810e70a59288887e89be129346455abeeb91cf8c4e336ea1c5e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 32,
+      "hasStructuralAnalysis": true
+    },
+    "skills/trpg-query-routing/SKILL.md": {
+      "filePath": "skills/trpg-query-routing/SKILL.md",
+      "contentHash": "a53f9c2857fd63950f3c15cbe99d9e2aed14a1c75cfbb261b4ee6ea3ac4773b8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 24,
+      "hasStructuralAnalysis": true
+    }
+  }
+}

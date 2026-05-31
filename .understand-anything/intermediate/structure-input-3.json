@@ -1,0 +1,42 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": ".mcp.json",
+      "language": "json",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 41,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    ".mcp.json": [],
+    "AGENTS.md": [],
+    "CLAUDE.md": [],
+    "CONTRIBUTING.md": [],
+    "README.md": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": "rules/agent-collaboration.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "rules/knowledge-ingestion.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "rules/repository-structure.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "rules/agent-collaboration.md": [],
+    "rules/knowledge-ingestion.md": [],
+    "rules/repository-structure.md": []
+  }
+}

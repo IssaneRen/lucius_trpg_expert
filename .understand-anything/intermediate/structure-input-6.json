@@ -1,0 +1,42 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/contacts.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/event-participants.md",
+      "language": "markdown",
+      "sizeLines": 54,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/events.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/relationships.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/tags.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/contacts.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/event-participants.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/events.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/relationships.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/tags.md": []
+  }
+}

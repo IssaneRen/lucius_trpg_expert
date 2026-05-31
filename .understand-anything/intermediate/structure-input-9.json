@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": ".claude/skills/knowledge-ingest/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/trpg-query-routing/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "apps/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "codex/profiles/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "codex/prompts/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "codex/README.md",
+      "language": "markdown",
+      "sizeLines": 6,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/conversations/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/general/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/general/sources/media/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/general/sources/pdf/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/general/sources/web/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/general/sources/web/20260512_075740_example-com.md",
+      "language": "markdown",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/index/catalog.jsonl",
+      "language": "jsonl",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/README.md",
+      "language": "markdown",
+      "sizeLines": 8,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/artifacts/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/index/sources-seed.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json",
+      "language": "json",
+      "sizeLines": 37,
+      "fileCategory": "config"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md",
+      "language": "markdown",
+      "sizeLines": 72,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    ".claude/skills/knowledge-ingest/SKILL.md": [],
+    ".claude/skills/trpg-query-routing/SKILL.md": [],
+    "apps/README.md": [],
+    "codex/profiles/README.md": [],
+    "codex/prompts/README.md": [],
+    "codex/README.md": [],
+    "docs/README.md": [],
+    "knowledge-base/conversations/README.md": [],
+    "knowledge-base/general/README.md": [],
+    "knowledge-base/general/sources/media/.gitkeep": [],
+    "knowledge-base/general/sources/pdf/.gitkeep": [],
+    "knowledge-base/general/sources/web/.gitkeep": [],
+    "knowledge-base/general/sources/web/20260512_075740_example-com.md": [],
+    "knowledge-base/index/catalog.jsonl": [],
+    "knowledge-base/README.md": [],
+    "knowledge-base/trpg/coc7e/artifacts/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/index/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/index/sources-seed.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md": []
+  }
+}

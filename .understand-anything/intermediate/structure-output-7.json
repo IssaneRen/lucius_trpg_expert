@@ -1,0 +1,193 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 18,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "Contacts Table",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 27,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "Event Participants Table",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "Events Table",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 90,
+      "nonEmptyLines": 70,
+      "sections": [
+        {
+          "heading": "The Night War - 模组解析概要",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "背景设定",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "模组结构",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "序幕",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "核心场景：战壕之夜",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "战场随机事件表 (2D6)",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "高潮",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "武器装备表",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "神话生物",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "NPC士兵预生成数据",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "美军士兵战斗技能",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "与《永恒恶意》的关联",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "SAN损失概要",
+          "level": 2,
+          "line": 83
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "Relationships Table",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 18,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "Tags Table",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": ".claude/agents/indexer.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/agents/researcher.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/agents/responder.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    ".claude/agents/indexer.md": [],
+    ".claude/agents/researcher.md": [],
+    ".claude/agents/responder.md": []
+  }
+}

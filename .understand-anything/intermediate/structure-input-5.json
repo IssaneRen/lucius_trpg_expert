@@ -1,0 +1,77 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": "docs/handovers/20260512-1610-handover-doc-system.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1615-seed-coc-kp-sources.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1620-module-folder-bootstrap.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1625-catalog-schema-upgrade.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1630-self-review-gate.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1635-phase-acceptance-check.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1640-malice-five-tables.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/INDEX.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/SELF_REVIEW_CHECKLIST.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/TEMPLATE.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "docs/handovers/20260512-1610-handover-doc-system.md": [],
+    "docs/handovers/20260512-1615-seed-coc-kp-sources.md": [],
+    "docs/handovers/20260512-1620-module-folder-bootstrap.md": [],
+    "docs/handovers/20260512-1625-catalog-schema-upgrade.md": [],
+    "docs/handovers/20260512-1630-self-review-gate.md": [],
+    "docs/handovers/20260512-1635-phase-acceptance-check.md": [],
+    "docs/handovers/20260512-1640-malice-five-tables.md": [],
+    "docs/handovers/INDEX.md": [],
+    "docs/handovers/SELF_REVIEW_CHECKLIST.md": [],
+    "docs/handovers/TEMPLATE.md": []
+  }
+}

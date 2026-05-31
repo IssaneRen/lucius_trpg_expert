@@ -1,0 +1,37 @@
+{
+  "module_id": "coc7e-the-night-war",
+  "title": {
+    "en": "The Night War",
+    "zh": "夜战"
+  },
+  "author": "Kevin A. Ross",
+  "collection": {
+    "en": "Tales of the Miskatonic Valley",
+    "zh": "密斯卡托尼克流域新传"
+  },
+  "system": "coc7e",
+  "type": "scenario-module",
+  "era": "1920s",
+  "setting_period": "1918 (WWI Western Front) / 1928 (Arkham)",
+  "player_count": "2-6",
+  "estimated_sessions": "1-2",
+  "source_tier": "private-pdf",
+  "source_path": "knowledge-base/trpg/coc7e/modules/the-night-war/raw/the-night-war.pdf",
+  "source_in_repo": true,
+  "copyright_note": "PDF has been copied into repository under module raw folder. Verify redistribution permissions before publishing the repository.",
+  "status": "bootstrapped",
+  "tags": [
+    "coc7e",
+    "module",
+    "the-night-war",
+    "tales-of-miskatonic-valley",
+    "wwi",
+    "combat-heavy",
+    "military",
+    "kp"
+  ],
+  "related_modules": [
+    "coc7e-malice-everlasting"
+  ],
+  "updated_at": "2026-05-21T00:00:00+08:00"
+}

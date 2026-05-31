@@ -1,0 +1,655 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".claude/skills/knowledge-ingest/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "Knowledge Ingest Skill",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "适用场景",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "输入",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "输出",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "执行流程",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "失败回退",
+          "level": 2,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": ".claude/skills/trpg-query-routing/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 23,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "TRPG Query Routing Skill",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "适用场景",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "路由策略",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "输出格式",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "回退策略",
+          "level": 2,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "apps/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "Apps",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "codex/profiles/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "Codex Profiles",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "codex/prompts/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "Codex Prompts",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "codex/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 6,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "Codex Workspace",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "Docs",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/conversations/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "Conversations",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/general/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "General Namespace",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/general/sources/media/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/general/sources/pdf/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/general/sources/web/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/general/sources/web/20260512_075740_example-com.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "sections": [
+        {
+          "heading": "Web Ingestion Result",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/index/catalog.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code",
+      "totalLines": 4,
+      "nonEmptyLines": 3,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 8,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "Knowledge Base",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/artifacts/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/index/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/index/sources-seed.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 33,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "CoC/KP Sources Seed",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Official",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Community",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Ingestion Priority",
+          "level": 2,
+          "line": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "module_id",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "title",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "system",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "source_tier",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "source_path",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "source_in_repo",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "copyright_note",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "status",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "tags",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "updated_at",
+          "level": 1,
+          "line": 20
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 23,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "Malice Everlasting Module",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "五表入口（便于编辑）",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "编辑规范",
+          "level": 2,
+          "line": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 37,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "module_id",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "title",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "collection",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "system",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "era",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "setting_period",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "player_count",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "estimated_sessions",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "source_tier",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "source_path",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "source_in_repo",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "copyright_note",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "status",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "tags",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "related_modules",
+          "level": 1,
+          "line": 33
+        },
+        {
+          "heading": "updated_at",
+          "level": 1,
+          "line": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 72,
+      "nonEmptyLines": 45,
+      "sections": [
+        {
+          "heading": "《夜战》 The Night War — 玩家招募",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "1918年，西线。你的步枪已经上膛。",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "战场技能",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "给特定调查员的话",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "跑过《永恒恶意》的调查员",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "一战老兵背景的调查员",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "模组基调",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "KP寄语",
+          "level": 2,
+          "line": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md",
+      "language": "markdown",
+      "sizeLines": 90,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md": []
+  }
+}

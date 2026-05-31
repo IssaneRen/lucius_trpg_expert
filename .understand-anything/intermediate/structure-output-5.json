@@ -1,0 +1,497 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 10,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/handovers/20260512-1610-handover-doc-system.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "20260512-1610 handover-doc-system",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/20260512-1615-seed-coc-kp-sources.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 29,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "20260512-1615 seed-coc-kp-sources",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/20260512-1620-module-folder-bootstrap.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 33,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "20260512-1620 module-folder-bootstrap",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/20260512-1625-catalog-schema-upgrade.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 30,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "20260512-1625 catalog-schema-upgrade",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/20260512-1630-self-review-gate.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "20260512-1630 self-review-gate",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/20260512-1635-phase-acceptance-check.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 36,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "20260512-1635 phase-acceptance-check",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/20260512-1640-malice-five-tables.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "20260512-1640 malice-five-tables",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/handovers/INDEX.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 27,
+      "nonEmptyLines": 20,
+      "sections": [
+        {
+          "heading": "Handover Index",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "命名规范",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "最新步骤",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "审查要点",
+          "level": 2,
+          "line": 22
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "docs/handovers/SELF_REVIEW_CHECKLIST.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 29,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "Self Review Checklist",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1) 结构审查",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "2) 数据审查",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "3) 可接手审查",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "4) 命令审查",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "5) 风险审查",
+          "level": 2,
+          "line": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "docs/handovers/TEMPLATE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 26,
+      "nonEmptyLines": 14,
+      "sections": [
+        {
+          "heading": "Step Template",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Actions",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Outputs",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Next",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "SelfReview",
+          "level": 2,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    }
+  ]
+}

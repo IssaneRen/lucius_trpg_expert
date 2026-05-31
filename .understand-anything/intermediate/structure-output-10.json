@@ -1,0 +1,975 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 22,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 49,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "The Night War (夜战)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "模组概述",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "核心特征",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "目录结构",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "五表入口（便于编辑）",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "编辑规范",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "与《永恒恶意》的关联",
+          "level": 2,
+          "line": 41
+        },
+        {
+          "heading": "KP 注意事项",
+          "level": 2,
+          "line": 45
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "coc7e namespace",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/sources/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 276,
+      "nonEmptyLines": 164,
+      "sections": [
+        {
+          "heading": "Web Ingestion Result",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/artifacts/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/index/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "dnd5e namespace",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/sources/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/artifacts/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/index/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "pf2e namespace",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/sources/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "knowledge-base/trpg/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "TRPG Namespaces",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "packages/index/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "packages/ingestion/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 5,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "Ingestion Package",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "packages/ingestion/src/cli.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 189,
+      "nonEmptyLines": 157,
+      "functions": [
+        {
+          "name": "_slugify",
+          "startLine": 27,
+          "endLine": 30,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "_strip_html",
+          "startLine": 33,
+          "endLine": 43,
+          "params": [
+            "html"
+          ]
+        },
+        {
+          "name": "_write_markdown",
+          "startLine": 46,
+          "endLine": 69,
+          "params": [
+            "namespace",
+            "url",
+            "tags",
+            "text"
+          ]
+        },
+        {
+          "name": "_append_catalog",
+          "startLine": 72,
+          "endLine": 100,
+          "params": [
+            "namespace",
+            "url",
+            "tags",
+            "markdown_path",
+            "source_tier",
+            "trust_note"
+          ]
+        },
+        {
+          "name": "ingest_web",
+          "startLine": 103,
+          "endLine": 133,
+          "params": [
+            "url",
+            "namespace",
+            "tags",
+            "source_tier",
+            "trust_note"
+          ]
+        },
+        {
+          "name": "ingest_pdf",
+          "startLine": 136,
+          "endLine": 138,
+          "params": [
+            "_path",
+            "_namespace"
+          ]
+        },
+        {
+          "name": "ingest_media",
+          "startLine": 141,
+          "endLine": 143,
+          "params": [
+            "_path",
+            "_namespace"
+          ]
+        },
+        {
+          "name": "build_parser",
+          "startLine": 146,
+          "endLine": 165,
+          "params": []
+        },
+        {
+          "name": "main",
+          "startLine": 168,
+          "endLine": 185,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "_slugify",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "_strip_html",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "_write_markdown",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "_append_catalog",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "ingest_web",
+          "line": 103,
+          "isDefault": false
+        },
+        {
+          "name": "ingest_pdf",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "ingest_media",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "build_parser",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 168,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_slugify",
+          "callee": "re.sub(r\"[^a-zA-Z0-9]+\", \"-\", text.strip().lower()).strip",
+          "lineNumber": 29
+        },
+        {
+          "caller": "_slugify",
+          "callee": "re.sub",
+          "lineNumber": 29
+        },
+        {
+          "caller": "_slugify",
+          "callee": "text.strip().lower",
+          "lineNumber": 29
+        },
+        {
+          "caller": "_slugify",
+          "callee": "text.strip",
+          "lineNumber": 29
+        },
+        {
+          "caller": "_strip_html",
+          "callee": "re.sub",
+          "lineNumber": 40
+        },
+        {
+          "caller": "_strip_html",
+          "callee": "re.sub",
+          "lineNumber": 41
+        },
+        {
+          "caller": "_strip_html",
+          "callee": "re.sub(r\"\\\\s+\", \" \", text).strip",
+          "lineNumber": 42
+        },
+        {
+          "caller": "_strip_html",
+          "callee": "re.sub",
+          "lineNumber": 42
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "dt.datetime.now",
+          "lineNumber": 48
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "captured_at.strftime",
+          "lineNumber": 49
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "_slugify",
+          "lineNumber": 50
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "url.split",
+          "lineNumber": 50
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "target_dir.mkdir",
+          "lineNumber": 52
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "target.write_text",
+          "lineNumber": 55
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "captured_at.isoformat",
+          "lineNumber": 59
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "', '.join",
+          "lineNumber": 61
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "LOGGER.info",
+          "lineNumber": 68
+        },
+        {
+          "caller": "_write_markdown",
+          "callee": "target.as_posix",
+          "lineNumber": 68
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "list",
+          "lineNumber": 90
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "markdown_path.as_posix",
+          "lineNumber": 93
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "dt.datetime.now(dt.timezone.utc).isoformat",
+          "lineNumber": 94
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "dt.datetime.now",
+          "lineNumber": 94
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "catalog.parent.mkdir",
+          "lineNumber": 97
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "catalog.open",
+          "lineNumber": 98
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "f.write",
+          "lineNumber": 99
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "json.dumps",
+          "lineNumber": 99
+        },
+        {
+          "caller": "_append_catalog",
+          "callee": "LOGGER.info",
+          "lineNumber": 100
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "LOGGER.info",
+          "lineNumber": 114
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "urllib.request.Request",
+          "lineNumber": 120
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 121
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "response.read().decode",
+          "lineNumber": 122
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "response.read",
+          "lineNumber": 122
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "_strip_html",
+          "lineNumber": 123
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "_write_markdown",
+          "lineNumber": 124
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "_append_catalog",
+          "lineNumber": 125
+        },
+        {
+          "caller": "ingest_web",
+          "callee": "LOGGER.info",
+          "lineNumber": 133
+        },
+        {
+          "caller": "ingest_pdf",
+          "callee": "LOGGER.info",
+          "lineNumber": 138
+        },
+        {
+          "caller": "ingest_media",
+          "callee": "LOGGER.info",
+          "lineNumber": 143
+        },
+        {
+          "caller": "build_parser",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 148
+        },
+        {
+          "caller": "build_parser",
+          "callee": "parser.add_subparsers",
+          "lineNumber": 149
+        },
+        {
+          "caller": "build_parser",
+          "callee": "sub.add_parser",
+          "lineNumber": 151
+        },
+        {
+          "caller": "build_parser",
+          "callee": "web.add_argument",
+          "lineNumber": 152
+        },
+        {
+          "caller": "build_parser",
+          "callee": "web.add_argument",
+          "lineNumber": 153
+        },
+        {
+          "caller": "build_parser",
+          "callee": "web.add_argument",
+          "lineNumber": 154
+        },
+        {
+          "caller": "build_parser",
+          "callee": "web.add_argument",
+          "lineNumber": 155
+        },
+        {
+          "caller": "build_parser",
+          "callee": "web.add_argument",
+          "lineNumber": 156
+        },
+        {
+          "caller": "build_parser",
+          "callee": "sub.add_parser",
+          "lineNumber": 158
+        },
+        {
+          "caller": "build_parser",
+          "callee": "pdf.add_argument",
+          "lineNumber": 159
+        },
+        {
+          "caller": "build_parser",
+          "callee": "pdf.add_argument",
+          "lineNumber": 160
+        },
+        {
+          "caller": "build_parser",
+          "callee": "sub.add_parser",
+          "lineNumber": 162
+        },
+        {
+          "caller": "build_parser",
+          "callee": "media.add_argument",
+          "lineNumber": 163
+        },
+        {
+          "caller": "build_parser",
+          "callee": "media.add_argument",
+          "lineNumber": 164
+        },
+        {
+          "caller": "main",
+          "callee": "build_parser",
+          "lineNumber": 170
+        },
+        {
+          "caller": "main",
+          "callee": "parser.parse_args",
+          "lineNumber": 171
+        },
+        {
+          "caller": "main",
+          "callee": "x.strip",
+          "lineNumber": 174
+        },
+        {
+          "caller": "main",
+          "callee": "args.tags.split",
+          "lineNumber": 174
+        },
+        {
+          "caller": "main",
+          "callee": "x.strip",
+          "lineNumber": 174
+        },
+        {
+          "caller": "main",
+          "callee": "ingest_web",
+          "lineNumber": 175
+        },
+        {
+          "caller": "main",
+          "callee": "ingest_pdf",
+          "lineNumber": 183
+        },
+        {
+          "caller": "main",
+          "callee": "ingest_media",
+          "lineNumber": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 8,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "Packages",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "packages/retrieval/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "packages/tooling/.gitkeep",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "scripts/sync_ai_configs.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 66,
+      "nonEmptyLines": 50,
+      "functions": [
+        {
+          "name": "_reset_dir",
+          "startLine": 17,
+          "endLine": 21,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "_copy_tree",
+          "startLine": 24,
+          "endLine": 33,
+          "params": [
+            "src",
+            "dst"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 36,
+          "endLine": 62,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "_reset_dir",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "_copy_tree",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 36,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_reset_dir",
+          "callee": "path.exists",
+          "lineNumber": 19
+        },
+        {
+          "caller": "_reset_dir",
+          "callee": "shutil.rmtree",
+          "lineNumber": 20
+        },
+        {
+          "caller": "_reset_dir",
+          "callee": "path.mkdir",
+          "lineNumber": 21
+        },
+        {
+          "caller": "_copy_tree",
+          "callee": "src.exists",
+          "lineNumber": 26
+        },
+        {
+          "caller": "_copy_tree",
+          "callee": "src.iterdir",
+          "lineNumber": 28
+        },
+        {
+          "caller": "_copy_tree",
+          "callee": "item.is_dir",
+          "lineNumber": 30
+        },
+        {
+          "caller": "_copy_tree",
+          "callee": "shutil.copytree",
+          "lineNumber": 31
+        },
+        {
+          "caller": "_copy_tree",
+          "callee": "shutil.copy2",
+          "lineNumber": 33
+        },
+        {
+          "caller": "main",
+          "callee": "_reset_dir",
+          "lineNumber": 44
+        },
+        {
+          "caller": "main",
+          "callee": "_reset_dir",
+          "lineNumber": 45
+        },
+        {
+          "caller": "main",
+          "callee": "_reset_dir",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "_reset_dir",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "_reset_dir",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "_copy_tree",
+          "lineNumber": 50
+        },
+        {
+          "caller": "main",
+          "callee": "_copy_tree",
+          "lineNumber": 51
+        },
+        {
+          "caller": "main",
+          "callee": "_copy_tree",
+          "lineNumber": 52
+        },
+        {
+          "caller": "main",
+          "callee": "(codex_prompts / \"README.md\").write_text",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "(codex_profiles / \"README.md\").write_text",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "skills/knowledge-ingest/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "Knowledge Ingest Skill",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "适用场景",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "输入",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "输出",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "执行流程",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "失败回退",
+          "level": 2,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "skills/trpg-query-routing/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 23,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "TRPG Query Routing Skill",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "适用场景",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "路由策略",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "输出格式",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "回退策略",
+          "level": 2,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "projectRoot": "D:\\workplace\\LuciusVibeCoding\\lucius_trpg_expert",
+  "batchFiles": [
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/README.md",
+      "language": "markdown",
+      "sizeLines": 49,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/sources/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md",
+      "language": "markdown",
+      "sizeLines": 276,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/artifacts/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/sources/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/artifacts/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/sources/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "packages/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "packages/ingestion/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "packages/ingestion/src/cli.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "packages/README.md",
+      "language": "markdown",
+      "sizeLines": 8,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "packages/retrieval/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "packages/tooling/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/sync_ai_configs.py",
+      "language": "python",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "skills/knowledge-ingest/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "skills/trpg-query-routing/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "knowledge-base/trpg/coc7e/modules/the-night-war/README.md": [],
+    "knowledge-base/trpg/coc7e/README.md": [],
+    "knowledge-base/trpg/coc7e/sources/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md": [],
+    "knowledge-base/trpg/dnd5e/artifacts/.gitkeep": [],
+    "knowledge-base/trpg/dnd5e/index/.gitkeep": [],
+    "knowledge-base/trpg/dnd5e/README.md": [],
+    "knowledge-base/trpg/dnd5e/sources/.gitkeep": [],
+    "knowledge-base/trpg/pf2e/artifacts/.gitkeep": [],
+    "knowledge-base/trpg/pf2e/index/.gitkeep": [],
+    "knowledge-base/trpg/pf2e/README.md": [],
+    "knowledge-base/trpg/pf2e/sources/.gitkeep": [],
+    "knowledge-base/trpg/README.md": [],
+    "packages/index/.gitkeep": [],
+    "packages/ingestion/README.md": [],
+    "packages/ingestion/src/cli.py": [],
+    "packages/README.md": [],
+    "packages/retrieval/.gitkeep": [],
+    "packages/tooling/.gitkeep": [],
+    "scripts/sync_ai_configs.py": [],
+    "skills/knowledge-ingest/SKILL.md": [],
+    "skills/trpg-query-routing/SKILL.md": []
+  }
+}

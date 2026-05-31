@@ -1,0 +1,635 @@
+{
+  "projectName": "lucius_trpg_expert",
+  "projectDescription": "?? TRPG ???? AI ??????????? agents?skills?rules?knowledge-base ????????",
+  "rawDescription": "# lucius_trpg_expert\r\n\r\n一个面向 TRPG 场景的多 AI 协作知识库仓库，支持 Cursor、Claude Code、Codex 与后续工具共同迭代。\r\n\r\n## 仓库目标\r\n\r\n- 统一管理多规则 TRPG 知识与通用知识索引。\r\n- 提供可扩展的知识导入能力（web/pdf/media）。\r\n- 让多 AI 工具共享一套 agents/skills/rules 源定义，避免配置漂移。\r\n- 为未来 `apps/` 子项目（web/mobile/miniapp）提供隔离部署边界。\r\n\r\n## 目录概览\r\n\r\n- `knowledge-base/`: 知识内容、来源与索引\r\n- `agents/`: 平台无关 agent 定义（SSOT）\r\n- `skills/`: 平台无关 skill 定义（SSOT）\r\n- `rules/`: 可执行协作规则（SSOT）\r\n- `.cursor/`, `.claude/`, `codex/`: 各 AI 工具适配层\r\n- `packages/`: 共享能力（ingestion/index/retrieval/tooling）\r\n- `apps/`: 业务应用子项目（未来拆分部署）\r\n- `scripts/`: 自动化脚本（配置同步、检查）\r\n- `docs/`: 设计文档、架构与路线图\r\n\r\n## 多 AI 协作流程\r\n\r\n1. 在 `agents/`、`skills/`、`rules/` 更新源定义。\r\n2. 执行 `scripts/sync_ai_configs.py` 同步到平台适配目录。\r\n3. 在各 AI 工具中执行同一套规范与上下文。\r\n\r\n## 快速开始\r\n\r\n```bash\r\npython3 packages/ingestion/src/cli.py ingest:web --url \"https://example.com\" --namespace general --tags demo,web\r\npython3 scripts/sync_ai_configs.py\r\n```\r\n\r\n## 后续路线\r\n\r\n- `ingest:pdf` 与 `ingest:media` 实现真实解析链路\r\n- 引入向量索引与检索增强\r\n- 对话质量评估与自我迭代机制\r\n",
+  "languages": [
+    "markdown",
+    "json",
+    "unknown",
+    "jsonl",
+    "python"
+  ],
+  "frameworks": [],
+  "files": [
+    {
+      "path": ".claude/agents/indexer.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/agents/researcher.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/agents/responder.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/knowledge-ingest/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/trpg-query-routing/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".cursor/rules/agent-collaboration.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".cursor/rules/knowledge-ingestion.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".cursor/rules/repository-structure.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".mcp.json",
+      "language": "json",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "agents/indexer.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "agents/researcher.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "agents/responder.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "apps/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "codex/profiles/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "codex/prompts/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "codex/README.md",
+      "language": "markdown",
+      "sizeLines": 6,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1610-handover-doc-system.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1615-seed-coc-kp-sources.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1620-module-folder-bootstrap.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1625-catalog-schema-upgrade.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1630-self-review-gate.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1635-phase-acceptance-check.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/20260512-1640-malice-five-tables.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/INDEX.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/SELF_REVIEW_CHECKLIST.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/handovers/TEMPLATE.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/conversations/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/general/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/general/sources/media/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/general/sources/pdf/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/general/sources/web/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/general/sources/web/20260512_075740_example-com.md",
+      "language": "markdown",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/index/catalog.jsonl",
+      "language": "jsonl",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/README.md",
+      "language": "markdown",
+      "sizeLines": 8,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/artifacts/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/index/sources-seed.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/contacts.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/event-participants.md",
+      "language": "markdown",
+      "sizeLines": 54,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/events.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/relationships.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/tags.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json",
+      "language": "json",
+      "sizeLines": 37,
+      "fileCategory": "config"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md",
+      "language": "markdown",
+      "sizeLines": 72,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md",
+      "language": "markdown",
+      "sizeLines": 90,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/modules/the-night-war/README.md",
+      "language": "markdown",
+      "sizeLines": 49,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/sources/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md",
+      "language": "markdown",
+      "sizeLines": 276,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/artifacts/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/dnd5e/sources/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/artifacts/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "knowledge-base/trpg/pf2e/sources/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "knowledge-base/trpg/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "packages/index/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "packages/ingestion/README.md",
+      "language": "markdown",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "packages/ingestion/src/cli.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "packages/README.md",
+      "language": "markdown",
+      "sizeLines": 8,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "packages/retrieval/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "packages/tooling/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 41,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "rules/agent-collaboration.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "rules/knowledge-ingestion.md",
+      "language": "markdown",
+      "sizeLines": 15,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "rules/repository-structure.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/sync_ai_configs.py",
+      "language": "python",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "skills/knowledge-ingest/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "skills/trpg-query-routing/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    }
+  ],
+  "totalFiles": 85,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "stats": {
+    "filesScanned": 85,
+    "byCategory": {
+      "docs": 61,
+      "config": 3,
+      "code": 21
+    },
+    "byLanguage": {
+      "markdown": 61,
+      "json": 3,
+      "unknown": 18,
+      "jsonl": 1,
+      "python": 2
+    }
+  },
+  "importMap": {
+    ".claude/agents/indexer.md": [],
+    ".claude/agents/researcher.md": [],
+    ".claude/agents/responder.md": [],
+    ".claude/skills/knowledge-ingest/SKILL.md": [],
+    ".claude/skills/trpg-query-routing/SKILL.md": [],
+    ".cursor/rules/agent-collaboration.md": [],
+    ".cursor/rules/knowledge-ingestion.md": [],
+    ".cursor/rules/repository-structure.md": [],
+    ".mcp.json": [],
+    "AGENTS.md": [],
+    "agents/indexer.md": [],
+    "agents/researcher.md": [],
+    "agents/responder.md": [],
+    "apps/README.md": [],
+    "CLAUDE.md": [],
+    "codex/profiles/README.md": [],
+    "codex/prompts/README.md": [],
+    "codex/README.md": [],
+    "CONTRIBUTING.md": [],
+    "docs/handovers/20260512-1610-handover-doc-system.md": [],
+    "docs/handovers/20260512-1615-seed-coc-kp-sources.md": [],
+    "docs/handovers/20260512-1620-module-folder-bootstrap.md": [],
+    "docs/handovers/20260512-1625-catalog-schema-upgrade.md": [],
+    "docs/handovers/20260512-1630-self-review-gate.md": [],
+    "docs/handovers/20260512-1635-phase-acceptance-check.md": [],
+    "docs/handovers/20260512-1640-malice-five-tables.md": [],
+    "docs/handovers/INDEX.md": [],
+    "docs/handovers/SELF_REVIEW_CHECKLIST.md": [],
+    "docs/handovers/TEMPLATE.md": [],
+    "docs/README.md": [],
+    "knowledge-base/conversations/README.md": [],
+    "knowledge-base/general/README.md": [],
+    "knowledge-base/general/sources/media/.gitkeep": [],
+    "knowledge-base/general/sources/pdf/.gitkeep": [],
+    "knowledge-base/general/sources/web/.gitkeep": [],
+    "knowledge-base/general/sources/web/20260512_075740_example-com.md": [],
+    "knowledge-base/index/catalog.jsonl": [],
+    "knowledge-base/README.md": [],
+    "knowledge-base/trpg/coc7e/artifacts/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/index/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/index/sources-seed.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/index/metadata.json": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/notes/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/contacts.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/event-participants.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/events.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/relationships.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/parsed/tags.md": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/modules/malice-everlasting/README.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/index/metadata.json": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/notes/promotion-draft.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/contacts.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/event-participants.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/events.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/overview.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/relationships.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/parsed/tags.md": [],
+    "knowledge-base/trpg/coc7e/modules/the-night-war/README.md": [],
+    "knowledge-base/trpg/coc7e/README.md": [],
+    "knowledge-base/trpg/coc7e/sources/.gitkeep": [],
+    "knowledge-base/trpg/coc7e/sources/web/20260512_081228_call-of-cthulhu-resources.md": [],
+    "knowledge-base/trpg/dnd5e/artifacts/.gitkeep": [],
+    "knowledge-base/trpg/dnd5e/index/.gitkeep": [],
+    "knowledge-base/trpg/dnd5e/README.md": [],
+    "knowledge-base/trpg/dnd5e/sources/.gitkeep": [],
+    "knowledge-base/trpg/pf2e/artifacts/.gitkeep": [],
+    "knowledge-base/trpg/pf2e/index/.gitkeep": [],
+    "knowledge-base/trpg/pf2e/README.md": [],
+    "knowledge-base/trpg/pf2e/sources/.gitkeep": [],
+    "knowledge-base/trpg/README.md": [],
+    "packages/index/.gitkeep": [],
+    "packages/ingestion/README.md": [],
+    "packages/ingestion/src/cli.py": [],
+    "packages/README.md": [],
+    "packages/retrieval/.gitkeep": [],
+    "packages/tooling/.gitkeep": [],
+    "README.md": [],
+    "rules/agent-collaboration.md": [],
+    "rules/knowledge-ingestion.md": [],
+    "rules/repository-structure.md": [],
+    "scripts/sync_ai_configs.py": [],
+    "skills/knowledge-ingest/SKILL.md": [],
+    "skills/trpg-query-routing/SKILL.md": []
+  },
+  "importStats": {
+    "filesScanned": 85,
+    "filesWithImports": 0,
+    "totalEdges": 0
+  }
+}

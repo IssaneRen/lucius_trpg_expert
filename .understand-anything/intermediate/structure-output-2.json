@@ -1,0 +1,100 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".cursor/rules/agent-collaboration.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 14,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "Agent Collaboration Rule",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "协作流程",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "质量要求",
+          "level": 2,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".cursor/rules/knowledge-ingestion.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 15,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "Knowledge Ingestion Rule",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "必填元数据",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "导入约束",
+          "level": 2,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".cursor/rules/repository-structure.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 13,
+      "nonEmptyLines": 9,
+      "sections": [
+        {
+          "heading": "Repository Structure Rule",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "目标",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "规则",
+          "level": 2,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    }
+  ]
+}
