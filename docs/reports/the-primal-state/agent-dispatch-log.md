@@ -1,6 +1,6 @@
 # 原初之境 Agent 调度记录
 
-source: E:\TRPG\B模组\原初之境 The Primal State\原初之境 正體中文.pdf
+source: knowledge-base/trpg/coc7e/modules/the-primal-state/raw/the-primal-state-zh-TW.pdf
 namespace: trpg/coc7e
 tags: module, coc7e, the-primal-state, pdf, zh-TW
 started_at: 2026-05-31
@@ -15,9 +15,10 @@ started_at: 2026-05-31
 ## 产物
 
 - raw text: `knowledge-base/trpg/coc7e/modules/the-primal-state/raw/full-layout.txt`
+- raw PDF: `knowledge-base/trpg/coc7e/modules/the-primal-state/raw/the-primal-state-zh-TW.pdf`
+- supporting PDF: `knowledge-base/trpg/coc7e/modules/the-primal-state/raw/down-the-rabbit-hole-zh-TW.pdf`
 - pages: `knowledge-base/trpg/coc7e/modules/the-primal-state/parsed/pages/page-*.txt`
 
 ## Agent 分工
 
 - toolchain-agent `019e7eac-13a4-72d1-8ada-a683ba4f2397`: 完成 PDF 工具链调研，建议 PyMuPDF 首选，当前用 Poppler 作为 fallback。
-

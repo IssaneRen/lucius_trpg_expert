@@ -1,6 +1,6 @@
 # 原初之境 模组架构
 
-source: E:\TRPG\B模组\原初之境 The Primal State\原初之境 正體中文.pdf
+source: knowledge-base/trpg/coc7e/modules/the-primal-state/raw/the-primal-state-zh-TW.pdf
 namespace: trpg/coc7e
 tags: module, coc7e, the-primal-state, zh-TW, parsed
 captured_at: 2026-05-31
@@ -155,4 +155,3 @@ captured_at: 2026-05-31
 - F《家，甜蜜的家》：初审 82 分不通过，已按意见修正。
 - G《树汁》第四部分：专家 88 分通过并修正。
 - H 参考/地图/材料：解析完成。
-

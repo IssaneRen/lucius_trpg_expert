@@ -6,14 +6,14 @@
 
 ## Inputs
 
-- `/Users/hongfei_ren/Documents/personal/永恒恶意 Malice Everlasting .pdf`
+- `knowledge-base/trpg/coc7e/modules/malice-everlasting/raw/malice-everlasting.pdf`
 - `knowledge-base/trpg/coc7e/`
 
 ## Actions
 
 - 创建 `modules/malice-everlasting` 目录骨架
 - 建立 `raw/parsed/notes/index` 四层
-- 写入 `index/metadata.json`，采用“引用原始 PDF，不默认拷贝入仓”策略
+- 写入 `index/metadata.json`；当前策略已调整为把私有 PDF 源文件复制到模块 `raw/`，避免 clone 后丢失源材料。
 
 ## Outputs
 
