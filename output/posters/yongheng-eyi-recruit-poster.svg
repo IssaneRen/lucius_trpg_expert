@@ -1,0 +1,59 @@
+<svg width="1080" height="1620" viewBox="0 0 1080 1620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090E19"/>
+      <stop offset="45%" stop-color="#101A2B"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 170) rotate(90) scale(300)">
+      <stop offset="0%" stop-color="#B6C3E6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#B6C3E6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9AA5BF" stop-opacity="0.04"/>
+      <stop offset="50%" stop-color="#C1CBDD" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#9AA5BF" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1080" height="1620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1620" fill="url(#bg)"/>
+  <circle cx="820" cy="170" r="300" fill="url(#moonGlow)"/>
+
+  <!-- silhouette skyline for CoC ambience -->
+  <path d="M0 1120 L90 1080 L130 1100 L190 1010 L250 1060 L320 980 L370 1030 L430 960 L500 1020 L570 930 L640 1000 L710 940 L790 1015 L860 960 L920 1030 L980 990 L1080 1060 L1080 1620 L0 1620 Z" fill="#0B101D"/>
+
+  <!-- fog layers -->
+  <ellipse cx="250" cy="1180" rx="360" ry="90" fill="url(#fog)"/>
+  <ellipse cx="800" cy="1240" rx="390" ry="100" fill="url(#fog)"/>
+  <ellipse cx="540" cy="1330" rx="500" ry="110" fill="url(#fog)"/>
+
+  <rect x="38" y="38" width="1004" height="1544" stroke="#BDA36E" stroke-width="2"/>
+  <rect x="52" y="52" width="976" height="1516" stroke="#6A5D3D" stroke-width="1"/>
+
+  <g filter="url(#shadow)">
+    <text x="92" y="180" fill="#D8C28D" font-size="54" font-family="serif" letter-spacing="2">CALL OF CTHULHU · TRPG</text>
+    <text x="92" y="292" fill="#F2ECDD" font-size="94" font-family="serif" font-weight="700">《永恒恶意》</text>
+    <text x="92" y="398" fill="#DDBF84" font-size="88" font-family="serif" font-weight="700">招募玩家 PL</text>
+  </g>
+
+  <text x="92" y="520" fill="#ECE5D8" font-size="42" font-family="sans-serif">上海阴雨夜里，失踪与流言指向同一处古老诅咒。</text>
+  <text x="92" y="580" fill="#ECE5D8" font-size="42" font-family="sans-serif">你将作为调查员，追索线索并在理智崩解前揭开真相。</text>
+
+  <rect x="92" y="652" width="896" height="504" rx="18" fill="#121A2C" fill-opacity="0.72" stroke="#8B7A55" stroke-width="1.5"/>
+
+  <text x="126" y="726" fill="#F5EBD7" font-size="40" font-family="sans-serif">▸ 规则系统：克苏鲁的呼唤 CoC 7版</text>
+  <text x="126" y="792" fill="#F5EBD7" font-size="40" font-family="sans-serif">▸ 模组类型：调查 / 悬疑 / 克苏鲁恐怖</text>
+  <text x="126" y="858" fill="#F5EBD7" font-size="40" font-family="sans-serif">▸ 建议人数：3-5人（新手友好）</text>
+  <text x="126" y="924" fill="#F5EBD7" font-size="40" font-family="sans-serif">▸ 开团预估耗时：共4次团，每次约3.5-4小时</text>
+  <text x="126" y="990" fill="#F5EBD7" font-size="40" font-family="sans-serif">▸ 开团地点：上海市虹口区吴淞路258号耀江发展中心A栋7楼701</text>
+  <text x="126" y="1056" fill="#F5EBD7" font-size="40" font-family="sans-serif">▸ 建议携带：笔记工具、骰子App、稳定出勤时间</text>
+
+  <rect x="92" y="1210" width="896" height="168" rx="18" fill="#5C2020" stroke="#D1B178" stroke-width="3"/>
+  <text x="136" y="1280" fill="#F7EFDE" font-size="42" font-family="sans-serif" font-weight="700">报名方式：私信【角色概念 + 可参与时间段】</text>
+  <text x="136" y="1340" fill="#F7EFDE" font-size="36" font-family="sans-serif">欢迎注重沉浸感与团队协作的玩家加入</text>
+
+  <text x="92" y="1492" fill="#C2C8D4" font-size="40" font-family="sans-serif">KP：白羽  ｜  让真相从迷雾中浮现</text>
+</svg>
